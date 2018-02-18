@@ -9,11 +9,11 @@ package area.solucion;
  *
  * @author Estudiantes
  */
-public class cuadrado extends Datos{
-    @Override
+public class triangulo extends Datos{
+     @Override
     public void solucion (){
-        area=s*s;
-        perimetro=s*4;
+        area=(int) (Math.sqrt((3*s)/2)) * s;
+        perimetro=s*3;
     System.out.println("El area del cuadrado es: "+ area);
     System.out.println("El perimetro del cuadrado es: "+ perimetro);
     }
